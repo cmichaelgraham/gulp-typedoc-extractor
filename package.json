@@ -1,13 +1,17 @@
 {
   "name": "gulp-typedoc-extractor",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A post processor to extract a module from gulp-typedoc json output.",
   "dependencies": {
+    "gulp-util": "~3.0.1",
     "istextorbinary": "1.0.2",
+    "nconf": "~0.6.9",
     "readable-stream": "^2.0.1",
-    "replacestream": "^4.0.0"
+    "replacestream": "^4.0.0",
+    "through2": "~0.6.1"
   },
   "devDependencies": {
+    "gulp": "~3.8.7",
     "concat-stream": "^1.5.0",
     "mocha": "^2.1.0",
     "should": "^7.0.1",
