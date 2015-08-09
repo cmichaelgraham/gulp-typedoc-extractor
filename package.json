@@ -1,6 +1,6 @@
 {
   "name": "gulp-typedoc-extractor",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A post processor to extract a module from gulp-typedoc json output.",
   "dependencies": {
     "gulp-util": "~3.0.1",
