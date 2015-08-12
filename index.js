@@ -25,7 +25,7 @@ module.exports = function(moduleName) {
 
         var outObj = obj.children[0].children[0];
         addExternalReferences(outObj, itemIndex);
-        file.contents = new Buffer(JSON.stringify(outObj));
+        file.contents = new Buffer(JSON.stringify(outObj, null, 2));
         return callback(null, file);
 
       } catch (e) {
